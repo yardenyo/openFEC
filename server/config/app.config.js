@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://monumental-alfajores-52d6f4.netlify.app/",
+    origin: "https://monumental-alfajores-52d6f4.netlify.app",
     credentials: true,
   })
 );
