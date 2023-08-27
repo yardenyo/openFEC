@@ -1,7 +1,7 @@
 import Axios from "axios";
 import AxiosMiddleware from "@/helpers/axiosMiddleware.helpers";
 
-window.localBaseURL = "http://localhost:5000";
+window.localBaseURL = "https://openfec.onrender.com";
 
 const config = {
   withCredentials: true,
