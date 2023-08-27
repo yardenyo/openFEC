@@ -8,7 +8,7 @@
         v-model:filters="filters"
         stripedRows
         scrollable
-        scrollHeight="80vh"
+        scrollHeight="75vh"
         tableStyle="min-width: 50rem"
       >
         <template #header>
