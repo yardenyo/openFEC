@@ -10,7 +10,12 @@ const CandidatesController = {
         "X-API-Key": apiKey,
       };
 
-      const response = await axios.get(api, { headers });
+      const response = await axios.get(
+        `${api}/?page=${req.query.page}&per_page=${req.query.per_page}`,
+        {
+          headers,
+        }
+      );
       res.json(response.data);
     } catch (err) {
       console.error(err);
